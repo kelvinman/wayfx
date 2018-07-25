@@ -1,0 +1,432 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="wayf(x) - Startup &amp; Takeoff">
+<link rel="shortcut icon" href="/favicon.ico">
+<title>wayfx | Makers Run Your Marketing Tech</title>
+
+<link rel="stylesheet" href="https://use.typekit.net/tax7bod.css">
+<link rel="stylesheet" href="https://wayfx.com/wp-content/themes/understrap/v3/css/normalize.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:800,800i,700,700i">
+<link rel="stylesheet" href="https://wayfx.com/wp-content/themes/understrap/v3/css/style.css" media="all">
+<link rel="stylesheet" href="https://wayfx.com/wp-content/themes/understrap/css/ph-banner.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="892153ca39858805c3724da4-"></script>
+<script type="892153ca39858805c3724da4-">
+	$(document).ready(function() {
+		$( "#contact-btn-header, #contact-btn-footer").on( "click", function() {
+			  $('html, body').addClass('overflow-hidden');
+			  $('#overlay-contact').fadeIn();
+		});
+		
+		$( "#close-contact-form" ).on( "click", function() {
+			$('html, body').removeClass('overflow-hidden');
+			$('#overlay-contact').fadeOut();
+		});
+	});
+  </script>
+<script src="https://wayfx.com/wp-content/themes/understrap/js/jquery.sticky.js" type="892153ca39858805c3724da4-"></script>
+<script type="892153ca39858805c3724da4-"> 
+	// Select all links with hashes 
+	$( document ).ready(function() {
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+		    // On-page links
+		    if (
+		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		      && 
+		      location.hostname == this.hostname
+		    ) {
+		      // Figure out element to scroll to
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      // Does a scroll target exist?
+		      if (target.length) {
+		        // Only prevent default if animation is actually gonna happen
+		        event.preventDefault();
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000, function() {
+		          // Callback after animation
+		          // Must change focus!
+		          var $target = $(target);
+		          $target.focus();
+		          if ($target.is(":focus")) { // Checking if the target was focused
+		            return false;
+		          } else {
+		            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		            $target.focus(); // Set focus again
+		          };
+		        });
+		      }
+		    }
+		  });
+	  });	
+  </script>
+
+<script type="892153ca39858805c3724da4-">
+	  $( document ).ready(function() {
+	  var distance = $('#mobileNav').offset().top,
+	  $window = $(window);
+
+		$window.scroll(function() {
+		    if ( $window.scrollTop() >= distance ) {
+		        $('#mobileNav').addClass('visible');
+		    } else {
+			    $('#mobileNav').removeClass('visible');
+		    }
+		});	  
+	});
+  </script>
+<style type="text/css">
+	   .header-alert a {
+		    background: #3F4ED9;
+		    align-items: center;
+		    justify-content: center;
+		    display: flex;
+		    min-height: 4.2rem;
+			font-weight: 500;
+			font-size: 15px;
+			color: #fff;
+			letter-spacing: 0;
+			text-align: center;
+			text-decoration: none;
+			padding: 5px 10px;
+		}
+		.header-alert a:hover {
+		    background: #2e3ed6;
+		}
+		.header-alert img {
+			position: relative;
+			top:1px;
+			margin-left: 4px;
+			height: 13px;
+		} 
+	</style>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115558049-1" type="892153ca39858805c3724da4-"></script>
+<script type="892153ca39858805c3724da4-">
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-115558049-1');
+	</script>
+<style type="text/css">
+		
+		#cb-form input {
+			height: 62px;
+		}
+		
+		#cb-form input, 
+		#cb-form textarea {
+			border: 0;
+			background: #FFFFFF;
+			box-shadow: 0 2px 4px 0 rgba(37,50,76,0.04);
+			border-radius: 4px;
+			color: #324868;
+			font-size: 16px;
+		}
+		
+		#cb-form textarea {
+			resize: none;
+		}
+		
+		#cb-form input::placeholder,
+		#cb-form textarea::placeholder {
+			color: #5C7499;
+			opacity: 1;
+			font-family: azo-sans-web,sans-serif;
+		}
+		
+		#cb-form {
+		    color: #fff;
+		    max-width: 72.4rem;
+		    margin-top: 20px;
+		    margin-bottom: 60px;
+		    width: 100%;
+		}
+		
+		#cb-form .clearbit-form {
+			flex: 1;
+		}
+		
+		#cb-form .clearbit-form label {
+			color: #545F69 !important;
+			font-weight: normal !important;
+		}
+		
+		#cb-form .clearbit-form .cb-form {
+			width: 100%;
+		}
+		
+		#cb-form input, #cb-form button {
+			font-family: azo-sans-web,sans-serif !important;
+		}
+		
+		#cb-form button {
+			background: #3F4ED9;
+			box-shadow: 0 2px 4px 0 rgba(37,50,76,0.04);
+			border-radius: 4px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 500;
+			letter-spacing: 0;
+			height: 62px;
+			text-align: center;
+			text-transform: none;
+		}
+		
+		@media all and (min-width: 600px) {
+			
+			#cb-form .clearbit-form form {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			#cb-form .clearbit-form form .cb-field {
+				flex: 1 46%;
+				margin-left: 2%;
+				margin-right: 2%;
+			}
+			
+			#cb-form .clearbit-form form .cb-submit {
+				flex: 1 100%;
+				margin-left: 2%;
+				margin-right: 2%;
+			}
+			
+			#cb-form button {
+				max-width: 319px;
+			}
+			
+			#cb-form .clearbit-form form .cb-field.cb-textarea {
+				flex: 1 100%;
+			}
+
+			
+		}
+			
+		.forms-theme-default label {
+			color: #fff !important;
+			font-weight: bold !important;
+			opacity: 0.8;
+		}
+		
+		#overlay-contact {
+			background: #F2F6FA;
+			position: fixed;
+			height: 100%;
+			overflow: auto;
+			width: 100%;
+			z-index: 999999;
+		}
+		
+		.forms-theme-default .cb-response {
+			font-size: 20px;
+			color: #25324C !important;
+			flex: 1 !important;
+			padding-left: 16px !important;
+		}
+
+		
+		#overlay-contact .contact-title {
+			font-size: 40px;
+			font-weight: 500;
+			color: #25324C;
+			letter-spacing: 0;
+			line-height: 44px;
+			margin-bottom: 16px;
+			max-width: 480px;
+			padding-left: 27px;
+			padding-right: 27px;
+		}
+		
+		#overlay-contact .contact-subtitle {
+			font-size: 18px;
+			color: #545F69;
+			letter-spacing: 0;
+			margin-bottom: 20px;
+			padding-left: 27px;
+			padding-right: 27px;
+		}
+		
+		#overlay-contact #close-contact-form {
+			align-items: center;
+			border: 2px solid #3F4ED9;
+			border-radius: 3px;
+			color: #3F4ED9;
+			display: inline-flex;
+			height: 49px;
+			justify-content: center;
+			width: 116px;
+			font-size: 16px;
+			font-weight: 600;
+			margin-top: 70px;
+			margin-bottom: 52px;
+			letter-spacing: 0;
+			text-align: center;
+			transition: all 0.1s;
+		}
+		
+		@media all and (max-width: 600px) {
+			#overlay-contact #close-contact-form {
+				margin-top: 40px;
+			}
+			#cb-form { 
+				margin-bottom: 40px;
+			}
+			
+			#overlay-contact .contact-title,
+			#overlay-contact .contact-subtitle { 
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			
+			.forms-theme-default .cb-response {
+				padding-left: 0 !important;
+ 			}
+		}
+		
+		#overlay-contact #close-contact-form svg {
+			margin-right: 8px;
+		}
+		
+		#overlay-contact #close-contact-form:hover {
+			background: #3F4ED9;
+			color: #fff;
+			cursor: pointer;
+		}
+		
+		#overlay-contact #close-contact-form:hover svg g#Contact-Us {
+			 fill: #fff;
+		}
+		
+		.text-right {
+			text-align: right;
+		}
+		
+		.overflow-hidden {
+			overflow: hidden !important;
+		}
+		
+		@font-face {
+		font-family: 'Asap';
+		src: url('Asap-Italic.ttf'); /* IE9 Compat Modes */
+		}
+	</style>
+</head>
+<body>
+<section id="overlay-contact" style="display: none;">
+<div class="container">
+<div class="text-right">
+<div id="close-contact-form">
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="Contact-Us" transform="translate(-1063.000000, -66.000000)" fill="#3F4ED9" fill-rule="nonzero">
+<g id="Group" transform="translate(1063.000000, 62.000000)">
+<path d="M1.40527827,4.0006125 C0.83583495,4.00131762 0.323543287,4.34682841 0.109523717,4.87452323 C-0.104495852,5.40221805 0.0223954255,6.00696515 0.430473603,6.40412809 L4.34062985,10.3142843 L0.430473603,14.2244409 C0.064741696,14.5755854 -0.0825830244,15.0970135 0.0453173045,15.5876292 C0.173217633,16.0782449 0.556357272,16.4613844 1.046973,16.5892845 C1.53758873,16.7171847 2.0590168,16.5698598 2.4101611,16.2041277 L6.32031735,12.2939718 L10.230474,16.2041277 C10.5816172,16.5698648 11.1030477,16.7171936 11.5936666,16.5892941 C12.0842855,16.4613945 12.4674275,16.0782525 12.5953271,15.5876336 C12.7232266,15.0970147 12.5758979,14.5755841 12.2101608,14.2244409 L8.30000485,10.3142843 L12.2101608,6.40412809 C12.6242253,6.0016402 12.7487251,5.3862358 12.5236693,4.85445027 C12.2986134,4.32266473 11.7701708,3.98359069 11.192974,4.0006125 C10.8292559,4.01145007 10.4840442,4.16346088 10.230474,4.42444059 L6.32031735,8.33459684 L2.4101611,4.42444059 C2.14625084,4.15315446 1.78375505,4.00026509 1.40527827,4.0006125 Z" id="Shape"></path>
+</g>
+</g>
+</g>
+</svg>
+Close
+</div>
+</div>
+<div id="cb-form">
+<div class="contact-title">We’ll get back to you in 1 business day ⚡️</div>
+
+<script type="892153ca39858805c3724da4-text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
+<div class="clearbit-form" data-form-id="117d7165-3296-4dc8-a905-241c28126a50" data-theme="default"></div>
+</div>
+</div>
+</section>
+<header class="site-header">
+<div class="container">
+<h1 class="logo">
+<a href="/" title="wayf(x)">
+<svg width="250px" height="50px" viewBox="0 0 250 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>Wayf(x)</desc>
+<defs></defs>
+<g transform="translate(-2.1640625 43)" class="" style="y:0px;user-select:none;transform:matrix(1, 0, 0, 1, -2.16406, 43);stroke-width:1px;perspective-origin:0px 0px;opacity:1" ><g class="ld " style="y:0px;x:0px;user-select:none;transform-origin:13.625px 0px;transform:none;stroke-width:1px;size:;r:0px;perspective-origin:0px 0px;line-height:71.4286px;font-size:50px;font:normal normal 800 normal 50px / 71.4286px 'Asap', 'century gothic', verdana;direction:ltr;d:none" ><text fill="#26334A" class="" style="y:0px;white-space:nowrap;user-select:none;stroke-width:1px;r:0px;perspective-origin:13.625px 0px;line-height:71.4286px;font-size:50px;font-family:'Asap';font:normal normal 800 normal 50px / 71.4286px 'Asap';fill:rgb(38, 51, 74);display:block;d:none" >k</text></g></g>
+<g transform="translate(25.0859375 43)" class="" style="y:0px;user-select:none;transform:matrix(1, 0, 0, 1, 25.0859, 43);stroke-width:1px;perspective-origin:0px 0px;opacity:1" ><g class="ld " style="y:0px;x:0px;user-select:none;transform-origin:7.79688px 0px;transform:none;stroke-width:1px;size:;r:0px;perspective-origin:0px 0px;line-height:71.4286px;font-size:50px;font:normal normal 800 normal 50px / 71.4286px 'Asap', 'century gothic', verdana;direction:ltr;d:none" ><text fill="#26334A" class="" style="y:0px;white-space:nowrap;user-select:none;stroke-width:1px;r:0px;perspective-origin:7.79688px 0px;line-height:71.4286px;font-size:50px;font-family:'Asap';font:normal normal 800 normal 50px / 71.4286px 'Asap';fill:rgb(38, 51, 74);display:block;d:none" >(</text></g></g>
+<g transform="translate(40.6796875 43)" class="" style="y:0px;user-select:none;transform:matrix(1, 0, 0, 1, 40.6797, 43);stroke-width:1px;perspective-origin:0px 0px;opacity:1" ><g class="ld " style="y:0px;x:0px;user-select:none;transform-origin:22.9375px 0px;transform:none;stroke-width:1px;size:;r:0px;perspective-origin:0px 0px;line-height:71.4286px;font-size:50px;font:normal normal 800 normal 50px / 71.4286px 'Asap', 'century gothic', verdana;direction:ltr;d:none" ><text fill="#26334A" class="" style="y:0px;white-space:nowrap;user-select:none;stroke-width:1px;r:0px;perspective-origin:22.9375px 0px;line-height:71.4286px;font-size:50px;font-family:'Asap';font:normal normal 800 normal 50px / 71.4286px 'Asap';fill:rgb(38, 51, 74);display:block;d:none" >m</text></g></g>
+<g transform="translate(86.5703125 43)" class="" style="y:0px;user-select:none;transform:matrix(1, 0, 0, 1, 86.5703, 43);stroke-width:1px;perspective-origin:0px 0px;opacity:1" ><g class="ld " style="y:0px;x:0px;user-select:none;transform-origin:7.79688px 0px;transform:none;stroke-width:1px;size:;r:0px;perspective-origin:0px 0px;line-height:71.4286px;font-size:50px;font:normal normal 800 normal 50px / 71.4286px 'Asap', 'century gothic', verdana;direction:ltr;d:none" ><text fill="#26334A" class="" style="y:0px;white-space:nowrap;user-select:none;stroke-width:1px;r:0px;perspective-origin:7.79688px 0px;line-height:71.4286px;font-size:50px;font-family:'Asap';font:normal normal 800 normal 50px / 71.4286px 'Asap';fill:rgb(38, 51, 74);display:block;d:none" >)</text></g></g></h1>
+<ul class="navigation">
+
+<li><a href="#pricing">Learn more</a></li>
+<li><a class="btn ghost" href="mailto: kelvinman.tk@gmail.com">Email me</a></li>
+
+</ul>
+<div class="hero-flex">
+<div>
+<h1 class="intro" style="text-align:left;">Designer that knows code</h1>
+</div>
+<div>
+<h4>I Deliver</h4>
+<ul class="checkmark-list">
+<li>Wireframes</li>
+<li>Mockups</li>
+<li>Interactive prototypes</li>
+<li>Thoughtful critical feedback</li>
+</ul>
+</div>
+</div>
+
+<div class="integrate">
+<ul>
+<li><img src="sketch.png" alt="Sketch"></li>
+<li><img src="invision.png" alt="InVision"></li>
+<li><img src="marvel.png" alt="Marvel"></li>
+<li><img src="js.png" alt="Javascript"></li>
+</ul>
+</div>
+</div>
+</header>
+
+
+
+<section id="pricing" class="section-f">
+<div class="container">
+
+<div class="plan">
+<h3>Achieved better design outcomes</h3>
+<ul class="services">
+<li>Collaborate across functions</li>
+<li>Advocate for and teach design skills</li>
+<li>Help champion design standards and visual identity</li>
+<li>Provide feedback on design solutions</li>
+<li>Participate in user research</li>
+<li>Give, seek, and receive feedback</li>
+<li>Help recruit, onboard and train new members</li>
+</ul>
+<a class="btn white" id="contact-btn-footer">Email me 🤝</a>
+</div>
+<div id="award-winning" class="section-g">
+
+
+</div>
+<footer>
+<p class="copyright">&copy; 2018 wayf(x). All rights reserved.</p>
+</footer>
+</div>
+</section>
+<script type="892153ca39858805c3724da4-">
+	  /*var phBanner = document.querySelector('.ph-banner');
+		var html = document.querySelector('html');
+		
+		var phClose = document.querySelector('.close-button');
+		phClose.addEventListener("click", function (e) {
+		  e.preventDefault();
+		  phBanner.style.transform = 'translateY(-'+phBanner.offsetHeight+'px)';
+		  html.style.transform = 'translateY(-'+phBanner.offsetHeight+'px)';
+		}, false);*/
+  </script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="892153ca39858805c3724da4-" defer=""></script></body>
+</html>
