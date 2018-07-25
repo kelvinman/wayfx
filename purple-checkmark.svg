@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-ok</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wayfx_Home_new" transform="translate(-964.000000, -310.000000)" fill="#3F4ED9" fill-rule="nonzero">
+            <g id="Group-27" transform="translate(260.000000, 272.000000)">
+                <g id="Group-26" transform="translate(704.000000, 0.000000)">
+                    <g id="Group-25" transform="translate(0.000000, 35.000000)">
+                        <g id="icons8-ok" transform="translate(0.000000, 3.000000)">
+                            <path d="M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0 Z M15.7521228,8.42862373 L9.36183579,14.7548181 C9.20292389,14.9121362 8.98822377,15 8.76422561,15 C8.54022746,15 8.32468206,14.9121362 8.16661544,14.7548181 L5.2478772,11.8653539 C4.91737427,11.5381658 4.91737427,11.0093094 5.2478772,10.6821213 C5.57838014,10.3549332 6.11259461,10.3549332 6.44309755,10.6821213 L8.76422561,12.9799691 L14.5569024,7.24539107 C14.8874054,6.91820298 15.4216199,6.91820298 15.7521228,7.24539107 C16.0826257,7.57257917 16.0826257,8.10143563 15.7521228,8.42862373 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

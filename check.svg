@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Wayfx_Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-519.000000, -4026.000000)">
+        <g id="Plan" transform="translate(223.000000, 3780.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g transform="translate(197.000000, 94.000000)" id="Group-9">
+                <g transform="translate(99.000000, 143.000000)">
+                    <path d="M6.08275862,17.1345029 L4.66666667,18.5263158 L9.2183908,23 L19.3333333,13.0584795 L17.9172414,11.6666667 L9.2183908,20.2163743 L6.08275862,17.1345029 Z M18,19 C18,23.4 14.4,27 10,27 C5.6,27 2,23.4 2,19 C2,14.6 5.6,11 10,11 C10.8,11 11.5,11.1 12.2,11.3 L13.8,9.7 C12.6,9.3 11.3,9 10,9 C4.5,9 0,13.5 0,19 C0,24.5 4.5,29 10,29 C15.5,29 20,24.5 20,19 L18,19 Z" id="Shape-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
